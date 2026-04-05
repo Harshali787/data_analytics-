@@ -1,70 +1,100 @@
-## Project Title
-House Price Prediction using Linear Regression   
+# 🏠 House Price Prediction using Linear Regression
 
-## Project Description
-This project uses Linear Regression to predict house prices based on:
-Area (square feet)
-Number of Bedrooms
-Number of Bathrooms
-The model is trained using a housing dataset and then used to predict the price of a new house.
+## 📌 Project Overview
+This project predicts house prices using **Linear Regression** based on:
+- Area
+- Bedrooms
+- Bathrooms
 
-##Objective
-The main objective of this project is to:
-Understand Linear Regression
-Train a machine learning model
-Predict house prices using real features
-Evaluate model performance using metrics
-
-## Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seabo
-rn
-Scikit-learn
-Jupyter Notebook / VS Code
+It is a beginner-friendly **Machine Learning project** built using Python and Scikit-learn.
 
 
-## Features of Project
-Loads housing dataset
-Checks missing values
-Selects useful features
-Splits training and testing data
-Trains Linear Regression model
-Predicts house prices
-Evaluates model accuracy
-Shows visualization graphs
-Predicts price for a new house
+## 🎯 Objective
+To build a machine learning model that can predict the price of a house using basic housing features.
 
 
-## Machine Learning Algorithm Used
-Linear Regression
-Linear Regression is a supervised machine learning algorithm used to predict continuous values such as price, salary, marks, etc.
-In this project, it predicts house price.
+## 🛠 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook / VS Code
+
+## 📂 Dataset
+The dataset file used in this project is:
+
+- `Housing.csv`
 
 
-## Input Features
-The model uses the following input features:
-Area
-Bedrooms
-Bathrooms
-Target Variable:
-Price
+## 📊 Features Used
+Input features:
+- `area`
+- `bedrooms`
+- `bathrooms`
 
-## Evaluation Metrics Used
-This project uses:
-MAE (Mean Absolute Error)
-MSE (Mean Squared Error)
-RMSE (Root Mean Squared Error)
-R² Score
-These metrics help to measure model performance.
+Target variable:
+- `price`
 
-## Output
-The model predicts the estimated price of a house.
-Example:
-Area = 2500 sq.ft
-Bedrooms = 3
-Bathrooms = 2
-➡ Predicted House Price
+## 🤖 Machine Learning Algorithm
+### Linear Regression
+Linear Regression is used to predict continuous values such as house prices.
 
+## 📈 Project Workflow
+1. Import libraries
+2. Load dataset
+3. Explore dataset
+4. Check missing values
+5. Select features and target
+6. Split dataset into train and test sets
+7. Train Linear Regression model
+8. Predict house prices
+9. Evaluate model performance
+10. Visualize results
+11. Predict price for a new house
+
+## 📌 Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+
+## 📉 Visualizations
+- Actual vs Predicted Price Scatter Plot
+- Correlation Heatmap
+
+## ▶ How to Run the Project
+
+### Step 1: Install required libraries
+```bash
+py -m pip install -r requirements.txt
+```
+
+### Step 2: Run the Python file
+```bash
+python house_price_prediction.py
+```
+
+or in Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+## 🏡 Example Prediction
+Input:
+- Area = 2500 sq.ft
+- Bedrooms = 3
+- Bathrooms = 2
+
+Output:
+- Predicted House Price
+  
+## 📌 Conclusion
+This project demonstrates how **Linear Regression** can be used for **house price prediction**. It is useful for beginners to understand machine learning model training, prediction, and evaluation.
+
+---
+
+## 👩‍💻 Author
+**Your Name**
