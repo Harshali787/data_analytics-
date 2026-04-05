@@ -97,4 +97,4 @@ This project demonstrates how **Linear Regression** can be used for **house pric
 ---
 
 ## 👩‍💻 Author
-**Your Name**
+HARSHALI BHAMARE
